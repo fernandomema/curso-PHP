@@ -1,0 +1,17 @@
+div {
+    background: url(../images/f01.png) bottom repeat-x,
+                url(../images/f02.png) left bottom no-repeat,
+                url(../images/f03.png) left top repeat-x;
+    background-color: #a4d3ff;
+}
+div:nth-child(1), div:nth-child(3) {
+    width:210px;
+    height:105px;
+    border: 2px solid #5c60c5;
+}
+div:nth-child(2) {
+    width:440px;
+    height:300px;
+    margin: 20px;
+    border: 5px solid #ae0e0d;
+}

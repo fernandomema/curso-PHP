@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-image: url(https://source.unsplash.com/random);
+    background-size: cover;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40px 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+.nav-left { 
+    grid-area: 1 / 1 / 2 / 2; 
+    padding:10px;
+}
+.nav-right { 
+    grid-area: 1 / 2 / 2 / 3; 
+    text-align: right;
+    padding:10px;
+}
+.nav-left a, .nav-right a {
+    color:white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.logo {
+    width:90px;
+    margin-right: 30px;
+}
+.profile {
+    width:25px;
+    background-color:white;
+    border-radius: 50%;
+    vertical-align:middle;
+}
+.menu, .rewards {
+    vertical-align:middle;
+    width:25px;
+}
+.menu {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.rewards {
+    filter: grayscale(100%) contrast(500%);
+}
+section { 
+    grid-area: 2 / 1 / 3 / 3; 
+    width: 100%;
+    height: 100%;
+}
+.searchbar {
+    text-align: center;
+    margin:auto;
+    margin-top:50px;
+    width:300px;
+    height:40px;
+    font: normal 1rem "Segoe UI",Arial,Helvetica,Sans-Serif;
+    padding-right: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    border-radius: 6px;
+    background-color: #fff;
+}
+.searchbar input {
+    width:100%;
+    height:100%;
+    border:0;
+    background-color: transparent;
+    outline: none;
+    font-size: large;
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+thead {
+    background-color: #003333;
+    color: #ccffcc;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+thead th {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tbody>tr>td:first-child {
+    text-transform: uppercase;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: #9c9;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: #ccffcc;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2.5px solid #0a96c5;
+}
+
+table td,
+table th {
+    border: 2.5px solid #0a96c5;
+}

@@ -1,0 +1,94 @@
+* {
+    font-family: 'Lucida Sans Unicode'; 
+}
+.header{
+    text-align: center;
+    max-width: 100vw;
+}
+.header img {
+    max-width: 100%;
+}
+.title {
+    text-align: center;
+    letter-spacing: 5px;
+}
+.title .orange {
+    color: #ffa600;
+}
+.title .green {
+    color: #5f8f11
+}
+h2 {
+    color: #70af0a;
+    /*text-decoration: underline;*/
+    border-bottom: 1px solid #70af0a;
+}
+h3 {
+    color: #d1914a
+}
+.menu, .content {
+    display: inline-block;
+}
+.menu {
+    list-style: none;
+}
+.menu li {
+    width: 70px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(203,231,131,1) 100%);
+    border: 0.5px solid lightgrey;
+    text-align: center;
+    margin-bottom:5px;
+    padding: 5px;
+}
+.menu li:hover {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(164,192,94,1) 100%);
+    border: 0.5px solid lightgrey;
+}
+.menu a {
+    text-decoration: none;
+    color: gray;
+}
+.menu .active {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(229,205,178,1) 100%);
+    border: 0.5px solid lightgrey;
+}
+.menu .active:hover {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(233,163,83,1) 100%);
+    border: 0.5px solid lightgrey;
+}
+.menu .active a {
+    color: black;
+}
+.content {
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(172,172,172);
+    background: linear-gradient(180deg, rgba(196, 196, 196,1) 0%, rgba(255,255,255,1) 30px, rgba(255,255,255,1) calc(100% - 30px), rgb(196, 196, 196) 100%);
+    padding-bottom: 10px;
+}
+p {
+    text-align: justify;
+}
+.main {
+    margin: auto;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". .";
+}
+.license {
+    text-align: center;
+    color:lightgrey;
+    font-style: italic;
+}
+.license a {
+    color: lightgrey;
+}

@@ -1,0 +1,31 @@
+#tabla {
+    border: 1px solid black;
+    width:100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tabla tr:first-child>td {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.cell-blue {
+    background-color: rgb(100, 255, 255);
+    text-align: left;
+}
+.cell-purple {
+    background-color: plum;
+    text-align: right;
+    vertical-align: bottom
+}
+
+.text-red {
+    color:crimson;
+}
+
+table td,
+table th {
+    border: 1px solid black;
+}

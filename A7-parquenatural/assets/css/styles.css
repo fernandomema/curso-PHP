@@ -1,0 +1,27 @@
+* {
+    font-family: Lucida Sans Unicode; 
+}
+.title {
+    text-align: center;
+}
+.title .orange {
+    color: orange;
+}
+.title .green {
+    color: #5f8f11
+}
+h2 {
+    color: #70af0a;
+    text-decoration: underline;
+}
+h3 {
+    color: #d1914a
+}
+.content {
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px
+}
+p {
+    text-align: justify;
+}

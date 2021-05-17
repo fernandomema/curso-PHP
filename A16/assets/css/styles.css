@@ -1,0 +1,27 @@
+table {
+    text-align: center;
+    color: rgb(105, 23, 23);
+    background-image: url('../images/fondo.jpg');
+    background-size: 30px;
+}
+
+thead {
+    background-color:#669966;
+}
+
+tbody .subheader {
+    background-color: lightsalmon;
+}
+
+tbody tr:nth-child(2) {
+    background-color: #fcfa79;
+}
+
+table {
+    border: 1px solid black;
+}
+
+table td,
+table th {
+    border: 1px solid black;
+}

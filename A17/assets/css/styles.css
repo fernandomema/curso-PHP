@@ -1,0 +1,89 @@
+body {
+    background-image: url(../images/ac.jpg);
+    text-align: center;
+}
+
+.box {
+    display:inline-block;
+    position: relative;
+    width:160px;
+    height:160px;
+    border:1px solid;
+}
+
+.box > .title {
+    position: absolute;
+    width:100%;
+    text-align:center;
+}
+
+.box:nth-child(1) {
+    background-image: url(../images/back_mantel.jpg);
+}
+.box:nth-child(2), .box:nth-child(4) {
+    box-sizing: border-box;
+}
+.box:nth-child(2) div {
+    margin:20px;
+    background-image: url(../images/back_mantel.jpg);
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+.box:nth-child(3) {
+    background-image: url(../images/back_mantel.jpg);
+    background-size: 160px;
+}
+.box:nth-child(4) {
+    background-color:white;
+}
+
+.box:nth-child(4) div {
+    margin:20px;
+    background-image: url(../images/back_mantel.jpg);
+    background-size: 120px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+.box:nth-child(5) {
+    background-image: url(../images/dh.jpg);
+    background-size: contain;
+}
+.box:nth-child(6) {
+    background-color:white;
+}
+.box:nth-child(6) div {
+    margin:20px;
+    background-image: url(../images/dh.jpg);
+    background-size: contain;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+.box:nth-child(7) {
+    background-image: url(../images/dh_2.jpg);
+    background-size: contain;
+    background-color: white;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.box:nth-child(8) {
+    background-image: url(../images/dh_3.jpg);
+    background-size: contain;
+    background-color: white;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.box:nth-child(9) {
+    background: linear-gradient(90deg, rgb(207, 245, 87) 0%, rgb(158, 191, 77) 40%, rgb(109, 131, 69) 80%, rgb(85, 80, 61) 100%);
+}
+
+.box:nth-child(10) {
+    background: linear-gradient(to bottom, rgb(226, 187, 171) 0%, rgb(215, 149, 123) 20%, rgb(163, 82, 52) 59%, rgb(130, 49, 17) 84%, rgb(185, 102, 82) 98%);
+}
+
+.box:nth-child(11) {
+    background: linear-gradient(to bottom, rgb(237, 238, 214) 0%, rgb(163, 189, 144) 40%, rgb(88, 140, 78) 80%, rgb(55, 96, 53) 100%);
+}
+.box:nth-child(12) {
+    background: linear-gradient(to bottom, rgba(237, 238, 214, 0) 0%, rgba(163, 189, 144, 0.4) 40%, rgba(88, 140, 78, 0.8) 80%, rgb(55, 96, 53) 100%);
+}
