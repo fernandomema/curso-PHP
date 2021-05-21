@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://365psd.com/images/previews/da4/vector-seamless-abstract-pattern-background-3544.jpg);
+    background-size: 400px;
+}
+
+.form-top-right {
+    font-size: 66px;
+    color: #ddd;
+    line-height: 100px;
+    text-align: right;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered-vertically {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
