@@ -1,14 +1,15 @@
 * {
-    margin:0;padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 
 main {
-    width:500px;
-    height:800px;
+    width: 500px;
+    height: 800px;
     position: absolute;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -21,9 +22,9 @@ main {
     border-radius: 12px 12px 75px 12px;
     box-shadow: 0 0 10px rgb(0 0 0 / 50%), 0 0 15px rgb(0 0 0 / 25%) inset;
     background: #f4b1028f linear-gradient(#f4b10291 95%, #f4b102c7 98%, #e0a200 99%);
-    padding-top:1px;
+    padding-top: 1px;
     user-select: none;
-    
+
 }
 
 .screen {
@@ -36,8 +37,8 @@ main {
 }
 
 .cruceta {
-    margin-top:25px;
-    margin-left:25px;
+    margin-top: 25px;
+    margin-left: 25px;
     position: absolute;
     width: 170px;
     height: 170px;
@@ -50,7 +51,8 @@ main {
         "left center right"
         ". bottom .";
 }
-.cruceta >div {
+
+.cruceta>div {
     position: relative;
     /* background: #8f8f8f; */
     color: #5c5f63;
@@ -59,81 +61,84 @@ main {
 }
 
 .cruceta:active>div {
-    box-shadow:none;
+    box-shadow: none;
 }
-.cruceta > div > span {
+
+.cruceta>div>span {
     display: block;
     text-align: center;
     margin-top: 25%;
 }
 
-.cruceta > .top {
+.cruceta>.top {
     grid-area: top;
-    border:2px solid rgba(0,0,0,.1);
+    border: 2px solid rgba(0, 0, 0, .1);
     border-bottom: none;
     border-radius: 8px 8px 0px 0px;
     box-shadow: 3px 0px 0px 0px rgb(0 0 0 / 20%), inset 0px 2px 0px 1px rgb(255 255 255 / 15%);
 }
 
-.cruceta > .left {
+.cruceta>.left {
     grid-area: left;
-    border:2px solid rgba(0,0,0,.1);
+    border: 2px solid rgba(0, 0, 0, .1);
     border-right: none;
     border-radius: 8px 0px 0px 8px;
     box-shadow: 0px 3px 0px 0px rgb(0 0 0 / 20%), inset 2px 2px 0px 0px rgb(255 255 255 / 15%);
 }
 
-.cruceta > .center {
+.cruceta>.center {
     grid-area: center;
 }
 
-.cruceta > .bottom {
+.cruceta>.bottom {
     grid-area: bottom;
-    border:2px solid rgba(0,0,0,.1);
+    border: 2px solid rgba(0, 0, 0, .1);
     border-top: none;
     border-radius: 0px 0px 8px 8px;
     box-shadow: 3px 3px 0px 0px rgb(0 0 0 / 20%), inset 2px 0px 0px 0px rgb(255 255 255 / 15%)
 }
 
-.cruceta > .right {
+.cruceta>.right {
     grid-area: right;
-    border:2px solid rgba(0,0,0,.1);
+    border: 2px solid rgba(0, 0, 0, .1);
     border-left: none;
     border-radius: 0px 8px 8px 0px;
     box-shadow: 3px 3px 0px 0px rgb(0 0 0 / 20%), inset -2px 2px 0px 0px rgb(255 255 255 / 15%)
 }
 
 .buttons-ab {
-    margin-top:50px;
+    margin-top: 50px;
     position: absolute;
-    right:0;
+    right: 0;
     display: inline-block;
-    width:50%;
+    width: 50%;
 }
+
 .button-a {
     background-color: red;
     border-radius: 50%;
     line-height: 50px;
     text-align: center;
-    width:50px;
-    height:50px;
+    width: 50px;
+    height: 50px;
     position: absolute;
 }
+
 .button-b {
     background-color: red;
     border-radius: 50%;
     line-height: 50px;
     text-align: center;
-    width:50px;
-    height:50px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     left: 65px;
-    top:25px;
+    top: 25px;
     box-shadow: 1px 1px 0px 2px rgb(0 0 0 / 20%), inset -2px 2px 0px 0px rgb(255 255 255 / 15%)
 }
 
 .button-b:active {
-    box-shadow:none;
+    box-shadow: none;
 }
 
 .buttons {
@@ -161,8 +166,8 @@ main {
     box-shadow: -3px 4px 3px rgba(0, 0, 0, 0.25) inset, 2px -2px 3px rgba(0, 0, 0, 0.25) inset;
 }
 
-.console > .bottom {
-    margin-top:90px;
+.console>.bottom {
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,36 +178,40 @@ main {
 .gamecontrols {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;  
-  }
-  .gamecontrols .gap {
+    margin-bottom: 50px;
+}
+
+.gamecontrols .gap {
     background: linear-gradient(#f5c346 -10%, #ffdf8c 130%);
-      transform: rotate(-28deg);
-      margin: 0 5px;
-      border-radius: 15px;
-    }
-  .gamecontrols .button {
+    transform: rotate(-28deg);
+    margin: 0 5px;
+    border-radius: 15px;
+}
+
+.gamecontrols .button {
     background: #f5be31;
-      border-radius: 10px;
-      box-shadow: 
-        -2px -2px 5px rgba(0,0,0, 0.4) inset, 
-        2px 2px 5px rgba(255,255,255, 0.7) inset, 
-        2px 2px 6px rgba(0,0,0, 0.8);
-      width: 50px;
-      height: 12px;
-      margin: 6px 8px;    
-    }
-  .gamecontrols .button:active {
-        box-shadow: 
-          -2px -2px 5px rgba(0,0,0, 0.4) inset, 
-          2px 2px 5px rgba(0,0,0, 0.7) inset;
-      }
-  .gamecontrols .button::after {
-      font-family: Pretendo, sans-serif;
-      font-size: 12px;
-      color: #302058;
-      content: attr(data-button);
-      position: relative;
-      right: 0;
-      bottom: -20px;
-    }
+    border-radius: 10px;
+    box-shadow:
+        -2px -2px 5px rgba(0, 0, 0, 0.4) inset,
+        2px 2px 5px rgba(255, 255, 255, 0.7) inset,
+        2px 2px 6px rgba(0, 0, 0, 0.8);
+    width: 50px;
+    height: 12px;
+    margin: 6px 8px;
+}
+
+.gamecontrols .button:active {
+    box-shadow:
+        -2px -2px 5px rgba(0, 0, 0, 0.4) inset,
+        2px 2px 5px rgba(0, 0, 0, 0.7) inset;
+}
+
+.gamecontrols .button::after {
+    font-family: Pretendo, sans-serif;
+    font-size: 12px;
+    color: #302058;
+    content: attr(data-button);
+    position: relative;
+    right: 0;
+    bottom: -20px;
+}
