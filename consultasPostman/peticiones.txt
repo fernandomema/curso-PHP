@@ -1,0 +1,1109 @@
+Peticion:
+GET https://restcountries.eu/rest/v2/all
+
+Respuesta:
+[
+  {
+    "name": "Afghanistan",
+    "topLevelDomain": [
+      ".af"
+    ],
+    "alpha2Code": "AF",
+    "alpha3Code": "AFG",
+    "callingCodes": [
+      "93"
+    ],
+    "capital": "Kabul",
+    "altSpellings": [
+      "AF",
+      "Afġānistān"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "population": 27657145,
+    "latlng": [
+      33,
+      65
+    ],
+    "demonym": "Afghan",
+    "area": 652230,
+    "gini": 27.8,
+    "timezones": [
+      "UTC+04:30"
+    ],
+    "borders": [
+      "IRN",
+      "PAK",
+      "TKM",
+      "UZB",
+      "TJK",
+      "CHN"
+    ],
+    "nativeName": "افغانستان",
+    "numericCode": "004",
+    "currencies": [
+      {
+        "code": "AFN",
+        "name": "Afghan afghani",
+        "symbol": "؋"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "ps",
+        "iso639_2": "pus",
+        "name": "Pashto",
+        "nativeName": "پښتو"
+      },
+      {
+        "iso639_1": "uz",
+        "iso639_2": "uzb",
+        "name": "Uzbek",
+        "nativeName": "Oʻzbek"
+      },
+      {
+        "iso639_1": "tk",
+        "iso639_2": "tuk",
+        "name": "Turkmen",
+        "nativeName": "Türkmen"
+      }
+    ],
+    "translations": {
+      "de": "Afghanistan",
+      "es": "Afganistán",
+      "fr": "Afghanistan",
+      "ja": "アフガニスタン",
+      "it": "Afghanistan",
+      "br": "Afeganistão",
+      "pt": "Afeganistão",
+      "nl": "Afghanistan",
+      "hr": "Afganistan",
+      "fa": "افغانستان"
+    },
+    "flag": "https://restcountries.eu/data/afg.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "SAARC",
+        "name": "South Asian Association for Regional Cooperation",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "AFG"
+  },
+  ...
+]
+
+Peticion: 
+https://restcountries.eu/rest/v2/name/Spain
+
+Respuesta: 
+[
+    {
+        "name": "Spain",
+        "topLevelDomain": [
+            ".es"
+        ],
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP",
+        "callingCodes": [
+            "34"
+        ],
+        "capital": "Madrid",
+        "altSpellings": [
+            "ES",
+            "Kingdom of Spain",
+            "Reino de España"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "population": 46438422,
+        "latlng": [
+            40.0,
+            -4.0
+        ],
+        "demonym": "Spanish",
+        "area": 505992.0,
+        "gini": 34.7,
+        "timezones": [
+            "UTC",
+            "UTC+01:00"
+        ],
+        "borders": [
+            "AND",
+            "FRA",
+            "GIB",
+            "PRT",
+            "MAR"
+        ],
+        "nativeName": "España",
+        "numericCode": "724",
+        "currencies": [
+            {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "es",
+                "iso639_2": "spa",
+                "name": "Spanish",
+                "nativeName": "Español"
+            }
+        ],
+        "translations": {
+            "de": "Spanien",
+            "es": "España",
+            "fr": "Espagne",
+            "ja": "スペイン",
+            "it": "Spagna",
+            "br": "Espanha",
+            "pt": "Espanha",
+            "nl": "Spanje",
+            "hr": "Španjolska",
+            "fa": "اسپانیا"
+        },
+        "flag": "https://restcountries.eu/data/esp.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ],
+        "cioc": "ESP"
+    }
+]
+
+Peticion:
+https://restcountries.eu/rest/v2/name/Spain?fullText=true
+
+Respuesta:
+[
+    {
+        "name": "Spain",
+        "topLevelDomain": [
+            ".es"
+        ],
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP",
+        "callingCodes": [
+            "34"
+        ],
+        "capital": "Madrid",
+        "altSpellings": [
+            "ES",
+            "Kingdom of Spain",
+            "Reino de España"
+        ],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "population": 46438422,
+        "latlng": [
+            40.0,
+            -4.0
+        ],
+        "demonym": "Spanish",
+        "area": 505992.0,
+        "gini": 34.7,
+        "timezones": [
+            "UTC",
+            "UTC+01:00"
+        ],
+        "borders": [
+            "AND",
+            "FRA",
+            "GIB",
+            "PRT",
+            "MAR"
+        ],
+        "nativeName": "España",
+        "numericCode": "724",
+        "currencies": [
+            {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            }
+        ],
+        "languages": [
+            {
+                "iso639_1": "es",
+                "iso639_2": "spa",
+                "name": "Spanish",
+                "nativeName": "Español"
+            }
+        ],
+        "translations": {
+            "de": "Spanien",
+            "es": "España",
+            "fr": "Espagne",
+            "ja": "スペイン",
+            "it": "Spagna",
+            "br": "Espanha",
+            "pt": "Espanha",
+            "nl": "Spanje",
+            "hr": "Španjolska",
+            "fa": "اسپانیا"
+        },
+        "flag": "https://restcountries.eu/data/esp.svg",
+        "regionalBlocs": [
+            {
+                "acronym": "EU",
+                "name": "European Union",
+                "otherAcronyms": [],
+                "otherNames": []
+            }
+        ],
+        "cioc": "ESP"
+    }
+]
+
+Peticion:
+https://restcountries.eu/rest/v2/alpha/ES
+
+Respuesta:
+{
+    "name": "Spain",
+    "topLevelDomain": [
+        ".es"
+    ],
+    "alpha2Code": "ES",
+    "alpha3Code": "ESP",
+    "callingCodes": [
+        "34"
+    ],
+    "capital": "Madrid",
+    "altSpellings": [
+        "ES",
+        "Kingdom of Spain",
+        "Reino de España"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 46438422,
+    "latlng": [
+        40.0,
+        -4.0
+    ],
+    "demonym": "Spanish",
+    "area": 505992.0,
+    "gini": 34.7,
+    "timezones": [
+        "UTC",
+        "UTC+01:00"
+    ],
+    "borders": [
+        "AND",
+        "FRA",
+        "GIB",
+        "PRT",
+        "MAR"
+    ],
+    "nativeName": "España",
+    "numericCode": "724",
+    "currencies": [
+        {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        }
+    ],
+    "languages": [
+        {
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Español"
+        }
+    ],
+    "translations": {
+        "de": "Spanien",
+        "es": "España",
+        "fr": "Espagne",
+        "ja": "スペイン",
+        "it": "Spagna",
+        "br": "Espanha",
+        "pt": "Espanha",
+        "nl": "Spanje",
+        "hr": "Španjolska",
+        "fa": "اسپانیا"
+    },
+    "flag": "https://restcountries.eu/data/esp.svg",
+    "regionalBlocs": [
+        {
+            "acronym": "EU",
+            "name": "European Union",
+            "otherAcronyms": [],
+            "otherNames": []
+        }
+    ],
+    "cioc": "ESP"
+}
+
+Peticion
+https://restcountries.eu/rest/v2/alpha?codes=ES;IT;FR
+
+Respuesta
+[
+  {
+    "name": "Spain",
+    "topLevelDomain": [
+      ".es"
+    ],
+    "alpha2Code": "ES",
+    "alpha3Code": "ESP",
+    "callingCodes": [
+      "34"
+    ],
+    "capital": "Madrid",
+    "altSpellings": [
+      "ES",
+      "Kingdom of Spain",
+      "Reino de España"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 46438422,
+    "latlng": [
+      40,
+      -4
+    ],
+    "demonym": "Spanish",
+    "area": 505992,
+    "gini": 34.7,
+    "timezones": [
+      "UTC",
+      "UTC+01:00"
+    ],
+    "borders": [
+      "AND",
+      "FRA",
+      "GIB",
+      "PRT",
+      "MAR"
+    ],
+    "nativeName": "España",
+    "numericCode": "724",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ],
+    "translations": {
+      "de": "Spanien",
+      "es": "España",
+      "fr": "Espagne",
+      "ja": "スペイン",
+      "it": "Spagna",
+      "br": "Espanha",
+      "pt": "Espanha",
+      "nl": "Spanje",
+      "hr": "Španjolska",
+      "fa": "اسپانیا"
+    },
+    "flag": "https://restcountries.eu/data/esp.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "ESP"
+  },
+  {
+    "name": "Italy",
+    "topLevelDomain": [
+      ".it"
+    ],
+    "alpha2Code": "IT",
+    "alpha3Code": "ITA",
+    "callingCodes": [
+      "39"
+    ],
+    "capital": "Rome",
+    "altSpellings": [
+      "IT",
+      "Italian Republic",
+      "Repubblica italiana"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 60665551,
+    "latlng": [
+      42.83333333,
+      12.83333333
+    ],
+    "demonym": "Italian",
+    "area": 301336,
+    "gini": 36,
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "AUT",
+      "FRA",
+      "SMR",
+      "SVN",
+      "CHE",
+      "VAT"
+    ],
+    "nativeName": "Italia",
+    "numericCode": "380",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "it",
+        "iso639_2": "ita",
+        "name": "Italian",
+        "nativeName": "Italiano"
+      }
+    ],
+    "translations": {
+      "de": "Italien",
+      "es": "Italia",
+      "fr": "Italie",
+      "ja": "イタリア",
+      "it": "Italia",
+      "br": "Itália",
+      "pt": "Itália",
+      "nl": "Italië",
+      "hr": "Italija",
+      "fa": "ایتالیا"
+    },
+    "flag": "https://restcountries.eu/data/ita.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "ITA"
+  },
+  {
+    "name": "France",
+    "topLevelDomain": [
+      ".fr"
+    ],
+    "alpha2Code": "FR",
+    "alpha3Code": "FRA",
+    "callingCodes": [
+      "33"
+    ],
+    "capital": "Paris",
+    "altSpellings": [
+      "FR",
+      "French Republic",
+      "République française"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "population": 66710000,
+    "latlng": [
+      46,
+      2
+    ],
+    "demonym": "French",
+    "area": 640679,
+    "gini": 32.7,
+    "timezones": [
+      "UTC-10:00",
+      "UTC-09:30",
+      "UTC-09:00",
+      "UTC-08:00",
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC+01:00",
+      "UTC+03:00",
+      "UTC+04:00",
+      "UTC+05:00",
+      "UTC+11:00",
+      "UTC+12:00"
+    ],
+    "borders": [
+      "AND",
+      "BEL",
+      "DEU",
+      "ITA",
+      "LUX",
+      "MCO",
+      "ESP",
+      "CHE"
+    ],
+    "nativeName": "France",
+    "numericCode": "250",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "name": "French",
+        "nativeName": "français"
+      }
+    ],
+    "translations": {
+      "de": "Frankreich",
+      "es": "Francia",
+      "fr": "France",
+      "ja": "フランス",
+      "it": "Francia",
+      "br": "França",
+      "pt": "França",
+      "nl": "Frankrijk",
+      "hr": "Francuska",
+      "fa": "فرانسه"
+    },
+    "flag": "https://restcountries.eu/data/fra.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "FRA"
+  }
+]
+
+Peticion
+https://restcountries.eu/rest/v2/currency/AFN
+
+Respuesta
+[
+  {
+    "name": "Afghanistan",
+    "topLevelDomain": [
+      ".af"
+    ],
+    "alpha2Code": "AF",
+    "alpha3Code": "AFG",
+    "callingCodes": [
+      "93"
+    ],
+    "capital": "Kabul",
+    "altSpellings": [
+      "AF",
+      "Afġānistān"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "population": 27657145,
+    "latlng": [
+      33,
+      65
+    ],
+    "demonym": "Afghan",
+    "area": 652230,
+    "gini": 27.8,
+    "timezones": [
+      "UTC+04:30"
+    ],
+    "borders": [
+      "IRN",
+      "PAK",
+      "TKM",
+      "UZB",
+      "TJK",
+      "CHN"
+    ],
+    "nativeName": "افغانستان",
+    "numericCode": "004",
+    "currencies": [
+      {
+        "code": "AFN",
+        "name": "Afghan afghani",
+        "symbol": "؋"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "ps",
+        "iso639_2": "pus",
+        "name": "Pashto",
+        "nativeName": "پښتو"
+      },
+      {
+        "iso639_1": "uz",
+        "iso639_2": "uzb",
+        "name": "Uzbek",
+        "nativeName": "Oʻzbek"
+      },
+      {
+        "iso639_1": "tk",
+        "iso639_2": "tuk",
+        "name": "Turkmen",
+        "nativeName": "Türkmen"
+      }
+    ],
+    "translations": {
+      "de": "Afghanistan",
+      "es": "Afganistán",
+      "fr": "Afghanistan",
+      "ja": "アフガニスタン",
+      "it": "Afghanistan",
+      "br": "Afeganistão",
+      "pt": "Afeganistão",
+      "nl": "Afghanistan",
+      "hr": "Afganistan",
+      "fa": "افغانستان"
+    },
+    "flag": "https://restcountries.eu/data/afg.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "SAARC",
+        "name": "South Asian Association for Regional Cooperation",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "AFG"
+  }
+]
+
+Peticion
+https://restcountries.eu/rest/v2/lang/ca/
+
+Respuesta
+[
+  {
+    "name": "Andorra",
+    "topLevelDomain": [
+      ".ad"
+    ],
+    "alpha2Code": "AD",
+    "alpha3Code": "AND",
+    "callingCodes": [
+      "376"
+    ],
+    "capital": "Andorra la Vella",
+    "altSpellings": [
+      "AD",
+      "Principality of Andorra",
+      "Principat d'Andorra"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 78014,
+    "latlng": [
+      42.5,
+      1.5
+    ],
+    "demonym": "Andorran",
+    "area": 468,
+    "gini": null,
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "borders": [
+      "FRA",
+      "ESP"
+    ],
+    "nativeName": "Andorra",
+    "numericCode": "020",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "ca",
+        "iso639_2": "cat",
+        "name": "Catalan",
+        "nativeName": "català"
+      }
+    ],
+    "translations": {
+      "de": "Andorra",
+      "es": "Andorra",
+      "fr": "Andorre",
+      "ja": "アンドラ",
+      "it": "Andorra",
+      "br": "Andorra",
+      "pt": "Andorra",
+      "nl": "Andorra",
+      "hr": "Andora",
+      "fa": "آندورا"
+    },
+    "flag": "https://restcountries.eu/data/and.svg",
+    "regionalBlocs": [],
+    "cioc": "AND"
+  }
+]
+
+Peticion:
+https://restcountries.eu/rest/v2/capital/madrid/
+
+Respuesta:
+[
+  {
+    "name": "Spain",
+    "topLevelDomain": [
+      ".es"
+    ],
+    "alpha2Code": "ES",
+    "alpha3Code": "ESP",
+    "callingCodes": [
+      "34"
+    ],
+    "capital": "Madrid",
+    "altSpellings": [
+      "ES",
+      "Kingdom of Spain",
+      "Reino de España"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 46438422,
+    "latlng": [
+      40,
+      -4
+    ],
+    "demonym": "Spanish",
+    "area": 505992,
+    "gini": 34.7,
+    "timezones": [
+      "UTC",
+      "UTC+01:00"
+    ],
+    "borders": [
+      "AND",
+      "FRA",
+      "GIB",
+      "PRT",
+      "MAR"
+    ],
+    "nativeName": "España",
+    "numericCode": "724",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ],
+    "translations": {
+      "de": "Spanien",
+      "es": "España",
+      "fr": "Espagne",
+      "ja": "スペイン",
+      "it": "Spagna",
+      "br": "Espanha",
+      "pt": "Espanha",
+      "nl": "Spanje",
+      "hr": "Španjolska",
+      "fa": "اسپانیا"
+    },
+    "flag": "https://restcountries.eu/data/esp.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "ESP"
+  }
+]
+
+Peticion:
+https://restcountries.eu/rest/v2/callingcode/34
+
+Respuesta:
+[
+  {
+    "name": "Spain",
+    "topLevelDomain": [
+      ".es"
+    ],
+    "alpha2Code": "ES",
+    "alpha3Code": "ESP",
+    "callingCodes": [
+      "34"
+    ],
+    "capital": "Madrid",
+    "altSpellings": [
+      "ES",
+      "Kingdom of Spain",
+      "Reino de España"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "population": 46438422,
+    "latlng": [
+      40,
+      -4
+    ],
+    "demonym": "Spanish",
+    "area": 505992,
+    "gini": 34.7,
+    "timezones": [
+      "UTC",
+      "UTC+01:00"
+    ],
+    "borders": [
+      "AND",
+      "FRA",
+      "GIB",
+      "PRT",
+      "MAR"
+    ],
+    "nativeName": "España",
+    "numericCode": "724",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ],
+    "translations": {
+      "de": "Spanien",
+      "es": "España",
+      "fr": "Espagne",
+      "ja": "スペイン",
+      "it": "Spagna",
+      "br": "Espanha",
+      "pt": "Espanha",
+      "nl": "Spanje",
+      "hr": "Španjolska",
+      "fa": "اسپانیا"
+    },
+    "flag": "https://restcountries.eu/data/esp.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": "ESP"
+  }
+]
+
+Peticion:
+https://restcountries.eu/rest/v2/region/Europe/
+
+Respuesta:
+[
+  {
+    "name": "Åland Islands",
+    "topLevelDomain": [
+      ".ax"
+    ],
+    "alpha2Code": "AX",
+    "alpha3Code": "ALA",
+    "callingCodes": [
+      "358"
+    ],
+    "capital": "Mariehamn",
+    "altSpellings": [
+      "AX",
+      "Aaland",
+      "Aland",
+      "Ahvenanmaa"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "population": 28875,
+    "latlng": [
+      60.116667,
+      19.9
+    ],
+    "demonym": "Ålandish",
+    "area": 1580,
+    "gini": null,
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [],
+    "nativeName": "Åland",
+    "numericCode": "248",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "sv",
+        "iso639_2": "swe",
+        "name": "Swedish",
+        "nativeName": "svenska"
+      }
+    ],
+    "translations": {
+      "de": "Åland",
+      "es": "Alandia",
+      "fr": "Åland",
+      "ja": "オーランド諸島",
+      "it": "Isole Aland",
+      "br": "Ilhas de Aland",
+      "pt": "Ilhas de Aland",
+      "nl": "Ålandeilanden",
+      "hr": "Ålandski otoci",
+      "fa": "جزایر الند"
+    },
+    "flag": "https://restcountries.eu/data/ala.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": ""
+  },
+  ...
+]
+
+Peticion:
+https://restcountries.eu/rest/v2/regionalbloc/EU/
+
+Respuesta:
+[
+  {
+    "name": "Åland Islands",
+    "topLevelDomain": [
+      ".ax"
+    ],
+    "alpha2Code": "AX",
+    "alpha3Code": "ALA",
+    "callingCodes": [
+      "358"
+    ],
+    "capital": "Mariehamn",
+    "altSpellings": [
+      "AX",
+      "Aaland",
+      "Aland",
+      "Ahvenanmaa"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "population": 28875,
+    "latlng": [
+      60.116667,
+      19.9
+    ],
+    "demonym": "Ålandish",
+    "area": 1580,
+    "gini": null,
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "borders": [],
+    "nativeName": "Åland",
+    "numericCode": "248",
+    "currencies": [
+      {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "iso639_1": "sv",
+        "iso639_2": "swe",
+        "name": "Swedish",
+        "nativeName": "svenska"
+      }
+    ],
+    "translations": {
+      "de": "Åland",
+      "es": "Alandia",
+      "fr": "Åland",
+      "ja": "オーランド諸島",
+      "it": "Isole Aland",
+      "br": "Ilhas de Aland",
+      "pt": "Ilhas de Aland",
+      "nl": "Ålandeilanden",
+      "hr": "Ålandski otoci",
+      "fa": "جزایر الند"
+    },
+    "flag": "https://restcountries.eu/data/ala.svg",
+    "regionalBlocs": [
+      {
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+      }
+    ],
+    "cioc": ""
+  },
+  ...
+]
+
+Peticion:
+https://restcountries.eu/rest/v2/callingcode/34?fields=name;capital;languages
+
+Respuesta:
+[
+  {
+    "languages": [
+      {
+        "iso639_1": "es",
+        "iso639_2": "spa",
+        "name": "Spanish",
+        "nativeName": "Español"
+      }
+    ],
+    "name": "Spain",
+    "capital": "Madrid"
+  }
+]
